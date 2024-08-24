@@ -4,11 +4,11 @@ pip install cryptography -------to install cryptography module into python
 pip install mysql-connector-python  -------------to install mysql connector module into python
 pip install bcrypt  ----------------to install bcrypt module into python
 
-change pwd to that of pc u r running the program on
+change pwd to that of the pc you are running the program on
 make a database named project on mysql
 use project
 remove all entries=delete from users where username is not null;
 
-sid pc: mysql pwd=root123, school mysql pwd=Root@123
+mysql user=root, pwd=root123
 
 made by sid-- goodbye 12th 
