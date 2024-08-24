@@ -15,13 +15,13 @@ work = None
 loginscr=tkr.Tk()   #className='Login and Registration Service Module') can be used in place of title --- debug line
 loginscr.title('Login and Registration Service Module')
 loginscr.geometry('800x600')
-myicon="c:/Siddharth/Studies Related/XII/Computers/Project/gui/k.ico"
-loginscr.iconbitmap(myicon)
+#myicon="k.ico"          #remove comments and put a .ico file to display icon on top-left corner of screen
+#loginscr.iconbitmap(myicon)
 
 
 menu = tkr.Menu(loginscr) #menu details: show:info,warning,error; ask:question,okcancel,yesno  ------debug line
 loginscr.config(menu=menu)
-aboutmsg='Made by: \nSiddharth Nair \nClass:XII-A, Roll Number:26 \nDelhi Public School: Bangalore South'
+aboutmsg='Made by: \nSiddharth Nair \nClass:XII \nDelhi Public School: Bangalore South'
 def menuquit():
     r=messagebox.askyesno(title='Exit', message='Do you wish to exit the program?')
     if r==1:
