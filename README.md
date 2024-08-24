@@ -14,4 +14,8 @@ remove all entries=delete from users where username is not null;
 
 mysql user=root, pwd=root123
 
+encryptmybdata.csv stores your csv data in a encrypted state
+encryptor.key has a value/key which is used to encrypt/decrypt data
+both these files are generated on running the code for the first time
+
 made by sid-- goodbye 12th 
